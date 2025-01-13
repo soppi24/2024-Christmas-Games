@@ -28,6 +28,7 @@ const characters = {
     "hungryhippo": { name: "Dad", color: "green", image: "Assets/Characters/kaima.png" },
     "napsgirl": { name: "Dad", color: "pink", image: "Assets/Characters/sophie.png" },
     "luvmymama": { name: "Dad", color: "red", image: "Assets/Characters/mom.png" },
+    "guest": { name: "Guest", color: "grey", image: "Assets/Characters/sophie.png" },
 };
 
 const messages = {
@@ -36,6 +37,7 @@ const messages = {
     "hungryhippo": "My small baby chigga, you cute tiny abomination. Love you like crazy tho. Even if you can't play basket ball on the Wii istg \n\n Love, \n - Sophie.E",
     "napsgirl": "Girl I can NOT believe you pulled this off wtf" ,
     "luvmymama": "Merry Christmas and Happy Birthday, Mom! It's been another year together, and another year I'm grateful that you've helped me grow to be the woman I am today. \n\n Thank you for the endless love, care, (and patience! hehe) you put into raising my sisters and I right. Wishing you a season filled with love, joy, and all the God-given goodies in between too. Love you mom, Happy Birthday, and Merry Christmas once again:D \n\n Love, \n - Sophie.E",
+    "guest": "Congratualations! You made it! Hope you had fun trying out my silly lil project :D" ,
 };
 
 // Game Variables
