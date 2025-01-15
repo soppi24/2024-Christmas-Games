@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-family: "Times New Roman", sans-serif;
+    background-image: url('Assets/Other/festive_background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+canvas {
+    display: none;
+    background: #22264a;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+#gifOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    background-image: url('Assets/Other/snowy_effect.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+}
+
+#passwordScreen {
+    z-index: 2;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    position: relative;
+    overflow: hidden;
+}
+
+#passwordScreen h1 {
+    font-size: 24px;
+    color: #ba000d;
+    margin-bottom: 10px;
+}
+
+#instructions {
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #444;
+}
+
+#instructions h2 {
+    font-size: 18px;
+    color: #ba000d;
+    margin-bottom: 10px;
+}
+
+#instructions ul {
+    padding-left: 20px;
+    margin: 0;
+    list-style-type: disc;
+}
+
+#instructions ul li {
+    margin-bottom: 8px;
+}
+
+#passwordInput {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+#passwordInput:focus {
+    border-color: #ba000d;
+}
+
+button {
+    background-color: white;
+    color: #ba000d;
+    border: 2px solid #ba000d;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #ba000d;
+    color: white;
+}
+
+#errorMessage {
+    color: #ba000d;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+.messageBox {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 400px;
+    text-align: center;
+    margin: 10px auto;
+    font-family: 'Times New Roman', serif;
+    font-size: 18px;
+    color: #ba000d;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    border: 2px solid #ba000d;
+}
